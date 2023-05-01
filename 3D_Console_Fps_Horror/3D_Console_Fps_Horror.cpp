@@ -191,7 +191,7 @@ int main()
 								}
 							}
 
-							// do big dumb sorting
+							// do dumb sorting
 							std::sort(p.begin(), p.end(), [](const std::pair<float, float>& left, const std::pair<float, float>& right) {return left.first < right.first; });
 
 							float fBound = 0.08;
